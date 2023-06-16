@@ -1,0 +1,233 @@
+.header{
+    position: fixed;
+    background-color: rgb(232, 169, 179);
+    width: 100%;
+    height: 70px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+#head
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -10%;
+    color: black;
+    text-decoration: none;
+}
+.navlink{
+    color:  rgba(240, 81, 54);
+    cursor: pointer;
+    margin-right: 30px;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+#home h1{
+    font-size: 80px;
+    margin-left: 10px;
+    color: rgb(144, 22, 144);
+}
+#home{
+    color: pink;
+    padding-top: 200px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 350px;    
+}
+#about h2{
+    padding-top: 2%;    
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+#about,p{
+    color: black;
+    text-align: center;
+    padding: 1.5px;
+}
+#contact h2{
+    padding-top: 2%;    
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+#contact,p{
+    color: black;
+    text-align: center;
+    padding: 1.5px;
+}
+.logo{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.main{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+.head{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.products{
+    margin-top: 10%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width:auto;
+}
+.product1{
+    margin-top: 10%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width:auto;
+}
+.payment{
+    margin-top: 5%;
+    margin-left: 50%;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 400px;
+}
+.conform{
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 450px;
+}
+.container{
+    text-align: center;
+    width: 400px;
+    margin-left: 35%;
+    border: 2px solid black;
+}
+.container1{
+    text-align: center;
+    margin-top: 15%;
+    width: 300px;
+    margin-left: 35%;
+    border: 2px solid black;
+}
+.pic{
+    background: url(https://images.pexels.com/photos/1328545/pexels-photo-1328545.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 600px;
+    width: 1250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition: transform 1s ease;
+}
+.pic:hover{
+    background: url(https://images.pexels.com/photos/14636079/pexels-photo-14636079.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 600px;
+    width: 1250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    animation: picture 5s infinite;
+}
+@keyframes picture {
+    0%{
+        background: url(https://images.pexels.com/photos/2779343/pexels-photo-2779343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+        height: 700px;
+        width: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%{
+        background: url(https://images.pexels.com/photos/346751/pexels-photo-346751.jpeg?auto=compress&cs=tinysrgb&w=600);
+        height: 700px;
+        width: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background: url(https://images.pexels.com/photos/1453008/pexels-photo-1453008.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        background: url(https://images.pexels.com/photos/16144077/pexels-photo-16144077/free-photo-of-gold-jewelry-with-gems.jpeg?auto=compress&cs=tinysrgb&w=600);
+        height: 700px;
+        width: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: url(https://images.pexels.com/photos/1162983/pexels-photo-1162983.jpeg?auto=compress&cs=tinysrgb&w=600);
+        height: 600px;
+        width: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }
+}
+.txt{
+    
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    color: white;
+    text-shadow: 7px 3px 3px rgb(241, 210, 116);
+}
+.t{
+    font-size:x-large;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+.first{
+    display: flex;
+    height: 35px;
+    float: right;
+    font-size: xx-large;
+    color: aliceblue;
+}
+.nav{
+   padding:20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+hr{
+    margin-top: 25px;
+    height: 30px;
+}
+.a{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    margin-left: 900px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    background-color:rgb(237, 242, 245) ;
+   
+}
+.b{
+    margin-top: 200px;
+}
+.c{
+    margin-top: 30px;
+    height: 330px;
+    width: 600px;
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(237, 242, 245);
+    font-size: xx-large;
+    
+}
